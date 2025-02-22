@@ -88,12 +88,11 @@
 
 .icon-search {
     color: var(--dark-gray);
-    margin-right: 2em;
-    transform: translateX(-30px);
+    transform: translateX(-32px);
 }
 
 .search-bar {
-    padding: 0 20px;
+    padding-right: 25px;
     background-color: var(--background-gray);
     border-color: var(--dark-gray);
     color: var(--dark-gray);
@@ -131,6 +130,42 @@ section {
     background-color: var(--background-card);
     box-shadow: 8px 8px 10px var(--dark-gray);
     border-radius: 15px;
+}
+
+.icon-info {
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    font-size: 1.8em;
+    color: var(--light-gray);
+    opacity: 70%;
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+}
+
+.icon-info:hover {
+    transform: scale(1.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    width: 18rem;
+    height: 20rem;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.icons-assessment {
+    justify-content: space-between;
+    margin-top: .7em;
+}
+
+.icon-star, .icon-heart, .icon-eye {
+    font-size: clamp(8pt, 16pt, 24pt);
 }
 
 /* Responsividade */
