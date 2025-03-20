@@ -166,6 +166,15 @@ section {
 
 .icon-star, .icon-heart, .icon-eye {
     font-size: clamp(8pt, 16pt, 24pt);
+    cursor: pointer;
+}
+
+.icon-heart {
+    color: rgb(255, 0, 0);
+}
+
+.icon-eye {
+    color: #2e4aff;
 }
 
 /* Responsividade */
